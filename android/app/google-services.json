@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096898407302",
+    "project_id": "dudu-53b60",
+    "storage_bucket": "dudu-53b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096898407302:android:57f8e636ef00cb6b6a1a07",
+        "android_client_info": {
+          "package_name": "com.obeyinternational.dudu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTPg4_mwJuQudwOFHwCvef-0KhSqFbQZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
