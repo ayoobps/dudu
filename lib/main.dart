@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:dudu/banner-images/view/banner_image_screen.dart';
+import 'package:dudu/view/video_player_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       builder: (context, child) {
         return GetMaterialApp(
-          home: BannerImageScreen(),
+          home: VideoPlayerScreen(),
         );
       },
     );
