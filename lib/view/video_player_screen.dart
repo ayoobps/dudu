@@ -20,7 +20,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
     _controller = VideoPlayerController.networkUrl(
       Uri.parse(
-        'https://obeyinternational.com/files/video.mp4',
+        'https://firebasestorage.googleapis.com/v0/b/dudu-53b60.appspot.com/o/videos%2Ffile_example_MP4_480_1_5MG.mp4?alt=media&token=20e94414-757b-45f8-972a-ee2c1e74612d',
       ),
     );
 
