@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sensors_plus/sensors_plus.dart';
@@ -29,6 +30,7 @@ class _ProjectSensorState extends State<ProjectSensor> {
   @override
   void dispose(){
     _accelerometerSubscription.cancel();
+    FontFeature.superscripts();
   }
 
   @override
