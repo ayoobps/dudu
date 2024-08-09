@@ -12,7 +12,20 @@
           "package_name": "com.obeyinternational.dudu"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1096898407302-to1p3krr7l4d44kj2jp77u3p5chm0ril.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.obeyinternational.dudu",
+            "certificate_hash": "6578f938be8f411da955faee71bab493d342ddc7"
+          }
+        },
+        {
+          "client_id": "1096898407302-hjlmf624jq80a3286e79etiok3jksf5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCTPg4_mwJuQudwOFHwCvef-0KhSqFbQZM"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096898407302-hjlmf624jq80a3286e79etiok3jksf5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1096898407302-pgalpt2jgk2ffbsmhtgvfemb7v6ismo6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.obeyinternational.dudu"
+              }
+            }
+          ]
         }
       }
     }

@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:dudu/banner-images/view/banner_image_screen.dart';
 import 'package:dudu/view/video_player_screen.dart';
 import 'package:dudu/view/project_sensor.dart';
+import 'package:dudu/view/cpanel_php_connection.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       builder: (context, child) {
         return GetMaterialApp(
-          home: ProjectSensor(),
+          home: BannerImageScreen(),
         );
       },
     );

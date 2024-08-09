@@ -58,6 +58,7 @@ class Assets {
   static const String aPIFSTFirestoreComponent = 'ios/Pods/FirebaseFirestoreInternal/Firestore/Source/API/FSTFirestoreComponent.h';
   static const String aPIFSTUserDataReader = 'ios/Pods/FirebaseFirestoreInternal/Firestore/Source/API/FSTUserDataReader.h';
   static const String aPIFSTUserDataWriter = 'ios/Pods/FirebaseFirestoreInternal/Firestore/Source/API/FSTUserDataWriter.h';
+  static const String abseil.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/abseil.build/dgph';
   static const String abseilAbseil = 'ios/Pods/Target Support Files/abseil/abseil.modulemap';
   static const String abseilAbseil.debug = 'ios/Pods/Target Support Files/abseil/abseil.debug.xcconfig';
   static const String abseilAbseil.release = 'ios/Pods/Target Support Files/abseil/abseil.release.xcconfig';
@@ -69,6 +70,7 @@ class Assets {
   static const String abseilPrivacyInfo = 'ios/Pods/abseil/PrivacyInfo.xcprivacy';
   static const String abseilREADME = 'ios/Pods/abseil/README.md';
   static const String abseilResourceBundleXcprivacyAbseilInfo = 'ios/Pods/Target Support Files/abseil/ResourceBundle-xcprivacy-abseil-Info.plist';
+  static const String abseilXcprivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/abseil-xcprivacy.build/dgph';
   static const String abslBaseLogSeverity = 'ios/Pods/abseil/absl/base/log_severity.cc';
   static const String abslCrcCrc32c = 'ios/Pods/abseil/absl/crc/crc32c.cc';
   static const String abslDebuggingStacktrace = 'ios/Pods/abseil/absl/debugging/stacktrace.cc';
@@ -530,6 +532,7 @@ class Assets {
   static const String bootstrapV3Bootstrap.upb = 'ios/Pods/gRPC-Core/src/core/ext/upb-gen/envoy/config/bootstrap/v3/bootstrap.upb.h';
   static const String bootstrapV3Bootstrap.upbMinitable = 'ios/Pods/gRPC-Core/src/core/ext/upb-gen/envoy/config/bootstrap/v3/bootstrap.upb_minitable.h';
   static const String bootstrapV3Bootstrap.upbdefs = 'ios/Pods/gRPC-Core/src/core/ext/upbdefs-gen/envoy/config/bootstrap/v3/bootstrap.upbdefs.h';
+  static const String boringSSLGRPC.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/BoringSSL-GRPC.build/dgph';
   static const String boringSSLGRPCBoringSSLGRPC = 'ios/Pods/Target Support Files/BoringSSL-GRPC/BoringSSL-GRPC.modulemap';
   static const String boringSSLGRPCBoringSSLGRPC.debug = 'ios/Pods/Target Support Files/BoringSSL-GRPC/BoringSSL-GRPC.debug.xcconfig';
   static const String boringSSLGRPCBoringSSLGRPC.release = 'ios/Pods/Target Support Files/BoringSSL-GRPC/BoringSSL-GRPC.release.xcconfig';
@@ -540,6 +543,7 @@ class Assets {
   static const String boringSSLGRPCErrData = 'ios/Pods/BoringSSL-GRPC/err_data.c';
   static const String boringSSLGRPCErrData.c = 'ios/Pods/BoringSSL-GRPC/err_data.c.grpc_back';
   static const String boringSSLGRPCLICENSE = 'ios/Pods/BoringSSL-GRPC/LICENSE';
+  static const String boringSSLGRPCOpensslGrpc.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/BoringSSL-GRPC-openssl_grpc.build/dgph';
   static const String boringSSLGRPCResourceBundleOpensslGrpcBoringSSLGRPCInfo = 'ios/Pods/Target Support Files/BoringSSL-GRPC/ResourceBundle-openssl_grpc-BoringSSL-GRPC-Info.plist';
   static const String bufBuf = 'ios/Pods/BoringSSL-GRPC/src/crypto/buf/buf.c';
   static const String bufBuf.c = 'ios/Pods/BoringSSL-GRPC/src/crypto/buf/buf.c.grpc_back';
@@ -721,6 +725,7 @@ class Assets {
   static const String clientSideWeightedRoundRobinV3ClientSideWeightedRoundRobin.upb = 'ios/Pods/gRPC-Core/src/core/ext/upb-gen/envoy/extensions/load_balancing_policies/client_side_weighted_round_robin/v3/client_side_weighted_round_robin.upb.h';
   static const String clientSideWeightedRoundRobinV3ClientSideWeightedRoundRobin.upbMinitable = 'ios/Pods/gRPC-Core/src/core/ext/upb-gen/envoy/extensions/load_balancing_policies/client_side_weighted_round_robin/v3/client_side_weighted_round_robin.upb_minitable.h';
   static const String clientXdsCredentials = 'ios/Pods/gRPC-C++/src/cpp/client/xds_credentials.cc';
+  static const String cloudFirestore.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/cloud_firestore.build/dgph';
   static const String cloudFirestoreCloudFirestore = 'ios/Pods/Target Support Files/cloud_firestore/cloud_firestore.modulemap';
   static const String cloudFirestoreCloudFirestore.debug = 'ios/Pods/Target Support Files/cloud_firestore/cloud_firestore.debug.xcconfig';
   static const String cloudFirestoreCloudFirestore.release = 'ios/Pods/Target Support Files/cloud_firestore/cloud_firestore.release.xcconfig';
@@ -1543,6 +1548,8 @@ class Assets {
   static const String fipsmoduleFipsSharedSupport = 'ios/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/fips_shared_support.c';
   static const String fipsmoduleFipsSharedSupport.c = 'ios/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/fips_shared_support.c.grpc_back';
   static const String fipsmoduleRandForkDetect = 'ios/Pods/BoringSSL-GRPC/src/crypto/fipsmodule/rand/fork_detect.h';
+  static const String firebase.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/Firebase.build/dgph';
+  static const String firebaseAppCheckInterop.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseAppCheckInterop.build/dgph';
   static const String firebaseAppCheckInteropFIRAppCheckInterop = 'ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckInterop.h';
   static const String firebaseAppCheckInteropFIRAppCheckProtocol = 'ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckProtocol.h';
   static const String firebaseAppCheckInteropFIRAppCheckTokenProtocol = 'ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckTokenProtocol.h';
@@ -1556,6 +1563,7 @@ class Assets {
   static const String firebaseAppCheckInteropFirebaseAppCheckInteropUmbrella = 'ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-umbrella.h';
   static const String firebaseAppCheckInteropLICENSE = 'ios/Pods/FirebaseAppCheckInterop/LICENSE';
   static const String firebaseAppCheckInteropREADME = 'ios/Pods/FirebaseAppCheckInterop/README.md';
+  static const String firebaseAuth.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseAuth.build/dgph';
   static const String firebaseAuthCHANGELOG = 'ios/Pods/FirebaseAuth/FirebaseAuth/CHANGELOG.md';
   static const String firebaseAuthFIRActionCodeSettings = 'ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRActionCodeSettings.h';
   static const String firebaseAuthFIRAdditionalUserInfo = 'ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAdditionalUserInfo.h';
@@ -1603,6 +1611,8 @@ class Assets {
   static const String firebaseAuthInteropFIRAuthInterop = 'ios/Pods/FirebaseFirestoreInternal/FirebaseAuth/Interop/FIRAuthInterop.h';
   static const String firebaseAuthLICENSE = 'ios/Pods/FirebaseAuth/LICENSE';
   static const String firebaseAuthREADME = 'ios/Pods/FirebaseAuth/README.md';
+  static const String firebaseCore.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseCore.build/dgph';
+  static const String firebaseCoreExtension.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseCoreExtension.build/dgph';
   static const String firebaseCoreExtensionFIRAppInternal = 'ios/Pods/FirebaseFirestoreInternal/FirebaseCore/Extension/FIRAppInternal.h';
   static const String firebaseCoreExtensionFIRComponent = 'ios/Pods/FirebaseFirestoreInternal/FirebaseCore/Extension/FIRComponent.h';
   static const String firebaseCoreExtensionFIRComponentContainer = 'ios/Pods/FirebaseFirestoreInternal/FirebaseCore/Extension/FIRComponentContainer.h';
@@ -1618,6 +1628,7 @@ class Assets {
   static const String firebaseCoreExtensionFirebaseCoreExtensionDummy = 'ios/Pods/Target Support Files/FirebaseCoreExtension/FirebaseCoreExtension-dummy.m';
   static const String firebaseCoreExtensionFirebaseCoreExtensionInfo = 'ios/Pods/Target Support Files/FirebaseCoreExtension/FirebaseCoreExtension-Info.plist';
   static const String firebaseCoreExtensionFirebaseCoreExtensionPrefix = 'ios/Pods/Target Support Files/FirebaseCoreExtension/FirebaseCoreExtension-prefix.pch';
+  static const String firebaseCoreExtensionFirebaseCoreExtensionPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseCoreExtension-FirebaseCoreExtension_Privacy.build/dgph';
   static const String firebaseCoreExtensionFirebaseCoreExtensionUmbrella = 'ios/Pods/Target Support Files/FirebaseCoreExtension/FirebaseCoreExtension-umbrella.h';
   static const String firebaseCoreExtensionFirebaseCoreInternal = 'ios/Pods/FirebaseFirestoreInternal/FirebaseCore/Extension/FirebaseCoreInternal.h';
   static const String firebaseCoreExtensionLICENSE = 'ios/Pods/FirebaseCoreExtension/LICENSE';
@@ -1635,12 +1646,14 @@ class Assets {
   static const String firebaseCoreFirebaseCoreInfo = 'ios/Pods/Target Support Files/FirebaseCore/FirebaseCore-Info.plist';
   static const String firebaseCoreFirebaseCorePrefix = 'ios/Pods/Target Support Files/firebase_core/firebase_core-prefix.pch';
   static const String firebaseCoreFirebaseCoreUmbrella = 'ios/Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h';
+  static const String firebaseCoreInternal.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseCoreInternal.build/dgph';
   static const String firebaseCoreInternalFirebaseCoreInternal = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.modulemap';
   static const String firebaseCoreInternalFirebaseCoreInternal.debug = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.debug.xcconfig';
   static const String firebaseCoreInternalFirebaseCoreInternal.release = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.release.xcconfig';
   static const String firebaseCoreInternalFirebaseCoreInternalDummy = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal-dummy.m';
   static const String firebaseCoreInternalFirebaseCoreInternalInfo = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal-Info.plist';
   static const String firebaseCoreInternalFirebaseCoreInternalPrefix = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal-prefix.pch';
+  static const String firebaseCoreInternalFirebaseCoreInternalPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseCoreInternal-FirebaseCoreInternal_Privacy.build/dgph';
   static const String firebaseCoreInternalFirebaseCoreInternalUmbrella = 'ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal-umbrella.h';
   static const String firebaseCoreInternalLICENSE = 'ios/Pods/FirebaseCoreInternal/LICENSE';
   static const String firebaseCoreInternalREADME = 'ios/Pods/FirebaseCoreInternal/README.md';
@@ -1654,6 +1667,7 @@ class Assets {
   static const String firebaseFirebase = 'ios/Pods/Headers/Public/Firebase/Firebase.h';
   static const String firebaseFirebase.debug = 'ios/Pods/Target Support Files/Firebase/Firebase.debug.xcconfig';
   static const String firebaseFirebase.release = 'ios/Pods/Target Support Files/Firebase/Firebase.release.xcconfig';
+  static const String firebaseFirestore.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseFirestore.build/dgph';
   static const String firebaseFirestoreFIRAggregateField = 'ios/Pods/FirebaseFirestore/FirebaseFirestoreInternal/FirebaseFirestore/FIRAggregateField.h';
   static const String firebaseFirestoreFIRAggregateQuery = 'ios/Pods/FirebaseFirestore/FirebaseFirestoreInternal/FirebaseFirestore/FIRAggregateQuery.h';
   static const String firebaseFirestoreFIRAggregateQuerySnapshot = 'ios/Pods/FirebaseFirestore/FirebaseFirestoreInternal/FirebaseFirestore/FIRAggregateQuerySnapshot.h';
@@ -1688,12 +1702,14 @@ class Assets {
   static const String firebaseFirestoreFirebaseFirestoreDummy = 'ios/Pods/Target Support Files/FirebaseFirestore/FirebaseFirestore-dummy.m';
   static const String firebaseFirestoreFirebaseFirestoreInfo = 'ios/Pods/Target Support Files/FirebaseFirestore/FirebaseFirestore-Info.plist';
   static const String firebaseFirestoreFirebaseFirestoreUmbrella = 'ios/Pods/Target Support Files/FirebaseFirestore/FirebaseFirestore-umbrella.h';
+  static const String firebaseFirestoreInternal.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseFirestoreInternal.build/dgph';
   static const String firebaseFirestoreInternalDummy = 'ios/Pods/FirebaseFirestore/FirebaseFirestoreInternal/dummy.m';
   static const String firebaseFirestoreInternalFirebaseFirestoreInternal = 'ios/Pods/Target Support Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal.modulemap';
   static const String firebaseFirestoreInternalFirebaseFirestoreInternal.debug = 'ios/Pods/Target Support Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal.debug.xcconfig';
   static const String firebaseFirestoreInternalFirebaseFirestoreInternal.release = 'ios/Pods/Target Support Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal.release.xcconfig';
   static const String firebaseFirestoreInternalFirebaseFirestoreInternalDummy = 'ios/Pods/Target Support Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal-dummy.m';
   static const String firebaseFirestoreInternalFirebaseFirestoreInternalInfo = 'ios/Pods/Target Support Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal-Info.plist';
+  static const String firebaseFirestoreInternalFirebaseFirestoreInternalPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseFirestoreInternal-FirebaseFirestoreInternal_Privacy.build/dgph';
   static const String firebaseFirestoreInternalFirebaseFirestoreInternalUmbrella = 'ios/Pods/Target Support Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal-umbrella.h';
   static const String firebaseFirestoreInternalFirestoreLICENSE = 'ios/Pods/FirebaseFirestoreInternal/Firestore/LICENSE';
   static const String firebaseFirestoreInternalREADME = 'ios/Pods/FirebaseFirestoreInternal/README.md';
@@ -1701,6 +1717,7 @@ class Assets {
   static const String firebaseFirestoreREADME = 'ios/Pods/FirebaseFirestore/README.md';
   static const String firebaseLICENSE = 'ios/Pods/Firebase/LICENSE';
   static const String firebaseREADME = 'ios/Pods/Firebase/README.md';
+  static const String firebaseSharedSwift.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/FirebaseSharedSwift.build/dgph';
   static const String firebaseSharedSwiftFirebaseSharedSwift = 'ios/Pods/Target Support Files/FirebaseSharedSwift/FirebaseSharedSwift.modulemap';
   static const String firebaseSharedSwiftFirebaseSharedSwift.debug = 'ios/Pods/Target Support Files/FirebaseSharedSwift/FirebaseSharedSwift.debug.xcconfig';
   static const String firebaseSharedSwiftFirebaseSharedSwift.release = 'ios/Pods/Target Support Files/FirebaseSharedSwift/FirebaseSharedSwift.release.xcconfig';
@@ -1737,6 +1754,7 @@ class Assets {
   static const String flagsMarshalling = 'ios/Pods/abseil/absl/flags/marshalling.h';
   static const String flagsReflection = 'ios/Pods/abseil/absl/flags/reflection.h';
   static const String flagsUsageConfig = 'ios/Pods/abseil/absl/flags/usage_config.h';
+  static const String flutter.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/Flutter.build/dgph';
   static const String flutterAppFrameworkInfo = 'ios/Flutter/AppFrameworkInfo.plist';
   static const String flutterDebug = 'ios/Flutter/Debug.xcconfig';
   static const String flutterFlutter = 'ios/Flutter/Flutter.podspec';
@@ -1755,6 +1773,7 @@ class Assets {
   static const String functionalAnyInvocable = 'ios/Pods/abseil/absl/functional/any_invocable.h';
   static const String functionalBindFront = 'ios/Pods/abseil/absl/functional/bind_front.h';
   static const String functionalFunctionRef = 'ios/Pods/abseil/absl/functional/function_ref.h';
+  static const String gRPCC++.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/gRPC-C++.build/dgph';
   static const String gRPCC++GRPCC++ = 'ios/Pods/Target Support Files/gRPC-C++/gRPC-C++.modulemap';
   static const String gRPCC++GRPCC++.debug = 'ios/Pods/Target Support Files/gRPC-C++/gRPC-C++.debug.xcconfig';
   static const String gRPCC++GRPCC++.release = 'ios/Pods/Target Support Files/gRPC-C++/gRPC-C++.release.xcconfig';
@@ -1762,22 +1781,28 @@ class Assets {
   static const String gRPCC++GRPCC++Info = 'ios/Pods/Target Support Files/gRPC-C++/gRPC-C++-Info.plist';
   static const String gRPCC++GRPCC++Prefix = 'ios/Pods/Target Support Files/gRPC-C++/gRPC-C++-prefix.pch';
   static const String gRPCC++GRPCC++Umbrella = 'ios/Pods/Target Support Files/gRPC-C++/gRPC-C++-umbrella.h';
+  static const String gRPCC++GRPCCertificatesCpp.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/gRPC-C++-gRPCCertificates-Cpp.build/dgph';
+  static const String gRPCC++Grpcpp.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/gRPC-C++-grpcpp.build/dgph';
   static const String gRPCC++LICENSE = 'ios/Pods/gRPC-C++/LICENSE';
   static const String gRPCC++README = 'ios/Pods/gRPC-C++/README.md';
   static const String gRPCC++ResourceBundleGRPCCertificatesCppGRPCC++Info = 'ios/Pods/Target Support Files/gRPC-C++/ResourceBundle-gRPCCertificates-Cpp-gRPC-C++-Info.plist';
   static const String gRPCC++ResourceBundleGrpcppGRPCC++Info = 'ios/Pods/Target Support Files/gRPC-C++/ResourceBundle-grpcpp-gRPC-C++-Info.plist';
+  static const String gRPCCore.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/gRPC-Core.build/dgph';
   static const String gRPCCoreGRPCCore = 'ios/Pods/Target Support Files/gRPC-Core/gRPC-Core.modulemap';
   static const String gRPCCoreGRPCCore.debug = 'ios/Pods/Target Support Files/gRPC-Core/gRPC-Core.debug.xcconfig';
   static const String gRPCCoreGRPCCore.release = 'ios/Pods/Target Support Files/gRPC-Core/gRPC-Core.release.xcconfig';
   static const String gRPCCoreGRPCCoreDummy = 'ios/Pods/Target Support Files/gRPC-Core/gRPC-Core-dummy.m';
   static const String gRPCCoreGRPCCoreInfo = 'ios/Pods/Target Support Files/gRPC-Core/gRPC-Core-Info.plist';
   static const String gRPCCoreGRPCCorePrefix = 'ios/Pods/Target Support Files/gRPC-Core/gRPC-Core-prefix.pch';
+  static const String gRPCCoreGrpc.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/gRPC-Core-grpc.build/dgph';
   static const String gRPCCoreLICENSE = 'ios/Pods/gRPC-Core/LICENSE';
   static const String gRPCCoreREADME = 'ios/Pods/gRPC-Core/README.md';
   static const String gRPCCoreResourceBundleGrpcGRPCCoreInfo = 'ios/Pods/Target Support Files/gRPC-Core/ResourceBundle-grpc-gRPC-Core-Info.plist';
+  static const String gTMSessionFetcher.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/GTMSessionFetcher.build/dgph';
   static const String gTMSessionFetcherGTMSessionFetcher = 'ios/Pods/GTMSessionFetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcher.h';
   static const String gTMSessionFetcherGTMSessionFetcher.debug = 'ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.debug.xcconfig';
   static const String gTMSessionFetcherGTMSessionFetcher.release = 'ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.release.xcconfig';
+  static const String gTMSessionFetcherGTMSessionFetcherCorePrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/GTMSessionFetcher-GTMSessionFetcher_Core_Privacy.build/dgph';
   static const String gTMSessionFetcherGTMSessionFetcherDummy = 'ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-dummy.m';
   static const String gTMSessionFetcherGTMSessionFetcherInfo = 'ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist';
   static const String gTMSessionFetcherGTMSessionFetcherLogging = 'ios/Pods/GTMSessionFetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherLogging.h';
@@ -1848,6 +1873,7 @@ class Assets {
   static const String googleRpcStatus.upbMinitable = 'ios/Pods/gRPC-Core/src/core/ext/upb-gen/google/rpc/status.upb_minitable.h';
   static const String googleRpcStatus.upbdefs = 'ios/Pods/gRPC-Core/src/core/ext/upbdefs-gen/google/rpc/status.upbdefs.h';
   static const String googleTypeLatlng.nanopb = 'ios/Pods/FirebaseFirestoreInternal/Firestore/Protos/nanopb/google/type/latlng.nanopb.cc';
+  static const String googleUtilities.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/GoogleUtilities.build/dgph';
   static const String googleUtilitiesGULAppDelegateSwizzler = 'ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h';
   static const String googleUtilitiesGULAppEnvironmentUtil = 'ios/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h';
   static const String googleUtilitiesGULApplication = 'ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULApplication.h';
@@ -1875,6 +1901,7 @@ class Assets {
   static const String googleUtilitiesGoogleUtilities.release = 'ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities.release.xcconfig';
   static const String googleUtilitiesGoogleUtilitiesDummy = 'ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-dummy.m';
   static const String googleUtilitiesGoogleUtilitiesInfo = 'ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist';
+  static const String googleUtilitiesGoogleUtilitiesPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/GoogleUtilities-GoogleUtilities_Privacy.build/dgph';
   static const String googleUtilitiesGoogleUtilitiesUmbrella = 'ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-umbrella.h';
   static const String googleUtilitiesLICENSE = 'ios/Pods/GoogleUtilities/LICENSE';
   static const String googleUtilitiesNSURLSession+GULPromises = 'ios/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h';
@@ -2473,6 +2500,7 @@ class Assets {
   static const String leveldbExport = 'ios/Pods/leveldb-library/include/leveldb/export.h';
   static const String leveldbFilterPolicy = 'ios/Pods/leveldb-library/include/leveldb/filter_policy.h';
   static const String leveldbIterator = 'ios/Pods/leveldb-library/include/leveldb/iterator.h';
+  static const String leveldbLibrary.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/leveldb-library.build/dgph';
   static const String leveldbLibraryDbBuilder = 'ios/Pods/leveldb-library/db/builder.cc';
   static const String leveldbLibraryDbDbImpl = 'ios/Pods/leveldb-library/db/db_impl.cc';
   static const String leveldbLibraryDbDbIter = 'ios/Pods/leveldb-library/db/db_iter.cc';
@@ -2492,6 +2520,7 @@ class Assets {
   static const String leveldbLibraryLeveldbLibraryInfo = 'ios/Pods/Target Support Files/leveldb-library/leveldb-library-Info.plist';
   static const String leveldbLibraryLeveldbLibraryPrefix = 'ios/Pods/Target Support Files/leveldb-library/leveldb-library-prefix.pch';
   static const String leveldbLibraryLeveldbLibraryUmbrella = 'ios/Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h';
+  static const String leveldbLibraryLeveldbPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/leveldb-library-leveldb_Privacy.build/dgph';
   static const String leveldbLibraryREADME = 'ios/Pods/leveldb-library/README.md';
   static const String leveldbLibraryResourceBundleLeveldbPrivacyLeveldbLibraryInfo = 'ios/Pods/Target Support Files/leveldb-library/ResourceBundle-leveldb_Privacy-leveldb-library-Info.plist';
   static const String leveldbLibraryResourcesPrivacyInfo = 'ios/Pods/leveldb-library/Resources/PrivacyInfo.xcprivacy';
@@ -3080,6 +3109,7 @@ class Assets {
   static const String multiFactorUnenrollFIRWithdrawMFARequest = 'ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Unenroll/FIRWithdrawMFARequest.m';
   static const String multiFactorUnenrollFIRWithdrawMFAResponse = 'ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/MultiFactor/Unenroll/FIRWithdrawMFAResponse.m';
   static const String nSData+zlibGULNSData+zlib = 'ios/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.m';
+  static const String nanopb.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/nanopb.build/dgph';
   static const String nanopbByteString = 'ios/Pods/FirebaseFirestoreInternal/Firestore/core/src/nanopb/byte_string.h';
   static const String nanopbFieldsArray = 'ios/Pods/FirebaseFirestoreInternal/Firestore/core/src/nanopb/fields_array.h';
   static const String nanopbFirestoreBundle.nanopb = 'ios/Pods/FirebaseFirestoreInternal/Firestore/Protos/nanopb/firestore/bundle.nanopb.cc';
@@ -3363,6 +3393,7 @@ class Assets {
   static const String podsNanopbPbCommon = 'ios/Pods/nanopb/pb_common.h';
   static const String podsNanopbPbDecode = 'ios/Pods/nanopb/pb_decode.h';
   static const String podsNanopbPbEncode = 'ios/Pods/nanopb/pb_encode.h';
+  static const String podsRunner.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/Pods-Runner.build/dgph';
   static const String podsRunnerPodsRunner = 'ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.modulemap';
   static const String podsRunnerPodsRunner.debug = 'ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig';
   static const String podsRunnerPodsRunner.profile = 'ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig';
@@ -3378,6 +3409,7 @@ class Assets {
   static const String podsRunnerPodsRunnerFrameworksReleaseOutputFiles = 'ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Release-output-files.xcfilelist';
   static const String podsRunnerPodsRunnerInfo = 'ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-Info.plist';
   static const String podsRunnerPodsRunnerUmbrella = 'ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h';
+  static const String podsRunnerTests.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/Pods-RunnerTests.build/dgph';
   static const String podsRunnerTestsPodsRunnerTests = 'ios/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap';
   static const String podsRunnerTestsPodsRunnerTests.debug = 'ios/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig';
   static const String podsRunnerTestsPodsRunnerTests.profile = 'ios/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig';
@@ -3473,6 +3505,8 @@ class Assets {
   static const String promiseTrace = 'ios/Pods/gRPC-C++/src/core/lib/promise/trace.h';
   static const String promiseTryJoin = 'ios/Pods/gRPC-C++/src/core/lib/promise/try_join.h';
   static const String promiseTrySeq = 'ios/Pods/gRPC-C++/src/core/lib/promise/try_seq.h';
+  static const String promisesObjC.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/PromisesObjC.build/dgph';
+  static const String promisesObjCFBLPromisesPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/PromisesObjC-FBLPromises_Privacy.build/dgph';
   static const String promisesObjCLICENSE = 'ios/Pods/PromisesObjC/LICENSE';
   static const String promisesObjCPromisesObjC = 'ios/Pods/Target Support Files/PromisesObjC/PromisesObjC.modulemap';
   static const String promisesObjCPromisesObjC.debug = 'ios/Pods/Target Support Files/PromisesObjC/PromisesObjC.debug.xcconfig';
@@ -3697,6 +3731,7 @@ class Assets {
   static const String reachabilityGULReachabilityChecker = 'ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker.m';
   static const String reachabilityGULReachabilityChecker+Internal = 'ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h';
   static const String reachabilityGULReachabilityMessageCode = 'ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityMessageCode.h';
+  static const String recaptchaInterop.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/RecaptchaInterop.build/dgph';
   static const String recaptchaInteropLICENSE = 'ios/Pods/RecaptchaInterop/LICENSE';
   static const String recaptchaInteropPlaceholder = 'ios/Pods/RecaptchaInterop/RecaptchaEnterprise/RecaptchaInterop/placeholder.m';
   static const String recaptchaInteropRCAActionProtocol = 'ios/Pods/RecaptchaInterop/RecaptchaEnterprise/RecaptchaInterop/Public/RecaptchaInterop/RCAActionProtocol.h';
@@ -3742,6 +3777,8 @@ class Assets {
   static const String reflectionMethodDef = 'ios/Pods/gRPC-C++/third_party/upb/upb/reflection/method_def.h';
   static const String reflectionOneofDef = 'ios/Pods/gRPC-C++/third_party/upb/upb/reflection/oneof_def.h';
   static const String reflectionServiceDef = 'ios/Pods/gRPC-C++/third_party/upb/upb/reflection/service_def.h';
+  static const String releaseIphonesimulatorFirebaseAuth.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/firebase_auth.build/dgph';
+  static const String releaseIphonesimulatorFirebaseCore.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/firebase_core.build/dgph';
   static const String remoteBloomFilter = 'ios/Pods/FirebaseFirestoreInternal/Firestore/core/src/remote/bloom_filter.h';
   static const String remoteConnectivityMonitor = 'ios/Pods/FirebaseFirestoreInternal/Firestore/core/src/remote/connectivity_monitor.h';
   static const String remoteConnectivityMonitorApple = 'ios/Pods/FirebaseFirestoreInternal/Firestore/core/src/remote/connectivity_monitor_apple.mm';
@@ -5275,6 +5312,7 @@ class Assets {
   static const String validateValidate.upb = 'ios/Pods/gRPC-C++/src/core/ext/upb-gen/validate/validate.upb.h';
   static const String validateValidate.upbMinitable = 'ios/Pods/gRPC-C++/src/core/ext/upb-gen/validate/validate.upb_minitable.h';
   static const String validateValidate.upbdefs = 'ios/Pods/gRPC-C++/src/core/ext/upbdefs-gen/validate/validate.upbdefs.h';
+  static const String videoPlayerAvfoundation.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/video_player_avfoundation.build/dgph';
   static const String videoPlayerAvfoundationResourceBundleVideoPlayerAvfoundationPrivacyVideoPlayerAvfoundationInfo = 'ios/Pods/Target Support Files/video_player_avfoundation/ResourceBundle-video_player_avfoundation_privacy-video_player_avfoundation-Info.plist';
   static const String videoPlayerAvfoundationVideoPlayerAvfoundation = 'ios/Pods/Target Support Files/video_player_avfoundation/video_player_avfoundation.modulemap';
   static const String videoPlayerAvfoundationVideoPlayerAvfoundation.debug = 'ios/Pods/Target Support Files/video_player_avfoundation/video_player_avfoundation.debug.xcconfig';
@@ -5282,6 +5320,7 @@ class Assets {
   static const String videoPlayerAvfoundationVideoPlayerAvfoundationDummy = 'ios/Pods/Target Support Files/video_player_avfoundation/video_player_avfoundation-dummy.m';
   static const String videoPlayerAvfoundationVideoPlayerAvfoundationInfo = 'ios/Pods/Target Support Files/video_player_avfoundation/video_player_avfoundation-Info.plist';
   static const String videoPlayerAvfoundationVideoPlayerAvfoundationPrefix = 'ios/Pods/Target Support Files/video_player_avfoundation/video_player_avfoundation-prefix.pch';
+  static const String videoPlayerAvfoundationVideoPlayerAvfoundationPrivacy.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/video_player_avfoundation-video_player_avfoundation_privacy.build/dgph';
   static const String videoPlayerAvfoundationVideoPlayerAvfoundationUmbrella = 'ios/Pods/Target Support Files/video_player_avfoundation/video_player_avfoundation-umbrella.h';
   static const String weightedRoundRobinStaticStrideScheduler = 'ios/Pods/gRPC-C++/src/core/load_balancing/weighted_round_robin/static_stride_scheduler.h';
   static const String weightedRoundRobinWeightedRoundRobin = 'ios/Pods/gRPC-Core/src/core/load_balancing/weighted_round_robin/weighted_round_robin.cc';
