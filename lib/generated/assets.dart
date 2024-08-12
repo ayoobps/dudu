@@ -1757,7 +1757,6 @@ class Assets {
   static const String flutter.buildDgph = 'ios/build/ios/Pods.build/Release-iphonesimulator/Flutter.build/dgph';
   static const String flutterAppFrameworkInfo = 'ios/Flutter/AppFrameworkInfo.plist';
   static const String flutterDebug = 'ios/Flutter/Debug.xcconfig';
-  static const String flutterFlutter = 'ios/Flutter/Flutter.podspec';
   static const String flutterFlutter.debug = 'ios/Pods/Target Support Files/Flutter/Flutter.debug.xcconfig';
   static const String flutterFlutter.release = 'ios/Pods/Target Support Files/Flutter/Flutter.release.xcconfig';
   static const String flutterFlutterExportEnvironment = 'ios/Flutter/flutter_export_environment.sh';

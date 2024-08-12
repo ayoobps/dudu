@@ -20,8 +20,8 @@ class _CpanelPhpConnectionState extends State<CpanelPhpConnection> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        //title: Text(widget.title!),
-       // centerTitle: true,
+        title: Text('php'),
+        centerTitle: true,
       ),
     );
   }
